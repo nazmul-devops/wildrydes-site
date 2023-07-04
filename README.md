@@ -91,7 +91,8 @@ amplify add auth
 git add .
 git commit -m "made changes"
 git push
-```
 
+```
+[Lambda Code](https://gist.githubusercontent.com/connor11528/0c787fd42e6f4e17f348771ee5ae8f13/raw/6be3b0da5a879b0be8a1b1ad2190cd134ea858c1/requestUnicorn.js)
 
 `By Nazmul - Cloud DevOps Engineer`
