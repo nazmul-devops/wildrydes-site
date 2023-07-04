@@ -13,7 +13,25 @@
     },
     "categories": {
       "auth": {
-        "wildrydessitef8e60c0d": {}
+        "wildrydessite8d8a7d5b": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wildrydessite-prod-164320-authRole",
+      "UnauthRoleArn": "arn:aws:iam::138645654058:role/amplify-wildrydessite-prod-164320-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::138645654058:role/amplify-wildrydessite-prod-164320-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-wildrydessite-prod-164320-deployment",
+      "UnauthRoleName": "amplify-wildrydessite-prod-164320-unauthRole",
+      "StackName": "amplify-wildrydessite-prod-164320",
+      "StackId": "arn:aws:cloudformation:ap-south-1:138645654058:stack/amplify-wildrydessite-prod-164320/99954e80-1a57-11ee-9daa-020038e1fe14",
+      "AmplifyAppId": "d1vyap6bezjjvg"
+    },
+    "categories": {
+      "auth": {
+        "wildrydessite8d8a7d5b": {}
       }
     }
   }
