@@ -54,11 +54,11 @@ pip install aws-shell
 2. Configure AWS shell
 aws configure
 
-3. Create a repo on AWS CodeCommit
-aws codecommit create-repository --repository-name wild-rydees
+3. Create a repo on Github
 
-4. Clone the source code from Github
-git clone https://github.com/aws-samples/aws-serverless-webapp-workshop
+Repo name: wildrydes-site
+
+# aws codecommit create-repository --repository-name wild-rydees
 
 Once you've used either AWS CodeCommit or GitHub.com to create your git repository and clone it locally, you'll need to copy the website content from an existing publicly accessible S3 bucket associated with this workshop and add the content to your repository.
 
@@ -80,28 +80,14 @@ Total 95 (delta 2), reused 0 (delta 0)
 To https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
 * [new branch] master -> master
 
-5. Split the WildRydes app into a branch
-cd aws-serverless-webapp-workshop
-git subtree split -P ./resources/code/WildRydesVue/ -b WildRydesVue
-
-6. Create a git repo and populate it with source code of WildRydesVue
-mkdir ../wild-rydes
-cd ../wild-rydes
-git init
-git pull ../aws-serverless-webapp-workshop WildRydesVue
-
-7. Create a repo and AWS CodeCommit and push this source code
-git remote add origin codecommit://wild-rydes
-git push -u origin master
-
-8. Install amplify cli
+4. Install amplify cli
 npm install -g @aws-amplify/cli
 amplify init
 
-9. Add user pool to amplify app
+5. Add user pool to amplify app
 amplify add auth
 
-10. Push changes to the codecommit
+6. Push changes to the codecommit
 git add .
 git commit -m "made changes"
 git push
