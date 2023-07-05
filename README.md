@@ -1,6 +1,8 @@
 # wildrydes-site
 wildrydes-site
 
+[Nazmu;'s WildRydes Serverless App Live Link](https://main.d38hj8mzxt3sbc.amplifyapp.com/)
+
 ## Build a Serverless Web Application
 
 - with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito by Nazmul
