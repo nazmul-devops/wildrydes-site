@@ -1,7 +1,7 @@
 # wildrydes-site
 wildrydes-site
 
-[Nazmu;'s WildRydes Serverless App Live Link](https://main.d38hj8mzxt3sbc.amplifyapp.com/)
+[Nazmul's WildRydes Serverless App Live Link](https://main.d38hj8mzxt3sbc.amplifyapp.com/)
 
 ## Build a Serverless Web Application
 
